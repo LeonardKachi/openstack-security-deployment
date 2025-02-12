@@ -1,0 +1,11 @@
+
+---
+
+## **3️⃣ Security Configurations**  
+📜 **security-policies/keystone-config.yaml** *(Keystone security policy)*  
+```yaml
+keystone:
+  auth:
+    enable_mfa: true
+    restrict_api: true
+    enforce_rbac: true
